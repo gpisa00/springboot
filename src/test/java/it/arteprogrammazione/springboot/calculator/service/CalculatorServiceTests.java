@@ -45,8 +45,6 @@ public class CalculatorServiceTests {
     public void divExceptionTest() {
         int a = 2;
         int b = 0;
-        assertThrows(RuntimeException.class, () -> {
-            calculatorService.div(a, b);
-        });
+        assertThrows(RuntimeException.class, () -> calculatorService.div(a, b));
     }
 }

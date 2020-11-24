@@ -30,4 +30,10 @@ public class InputOutputAspectLog {
         logger.info("FINE - Esecuzione metodo: " + joinPoint.getSignature().getName());
     }
 
+    @AfterThrowing(value = "calculatorServiceMethods()", throwing = "ex")
+    public void afterExceptionServiceExecution(JoinPoint joinPoint, Throwable ex){
+        logger.error("FINE - Esecuzione metodo: " + joinPoint.getSignature().getName() +
+                " terminato con un errore - "+ ex.getMessage());
+    }
+
 }

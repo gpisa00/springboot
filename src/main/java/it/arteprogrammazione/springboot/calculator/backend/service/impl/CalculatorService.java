@@ -1,6 +1,6 @@
-package it.arteprogrammazione.springboot.calculator.service.impl;
+package it.arteprogrammazione.springboot.calculator.backend.service.impl;
 
-import it.arteprogrammazione.springboot.calculator.service.ICalculatorService;
+import it.arteprogrammazione.springboot.calculator.backend.service.ICalculatorService;
 import org.springframework.stereotype.Service;
 
 @Service

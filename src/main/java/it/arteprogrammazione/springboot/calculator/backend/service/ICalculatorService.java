@@ -1,4 +1,4 @@
-package it.arteprogrammazione.springboot.calculator.service;
+package it.arteprogrammazione.springboot.calculator.backend.service;
 
 public interface ICalculatorService {
 

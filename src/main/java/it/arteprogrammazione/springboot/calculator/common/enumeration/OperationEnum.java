@@ -1,4 +1,4 @@
-package it.arteprogrammazione.springboot.calculator.enumeration;
+package it.arteprogrammazione.springboot.calculator.common.enumeration;
 
 public enum OperationEnum {
     SUM,

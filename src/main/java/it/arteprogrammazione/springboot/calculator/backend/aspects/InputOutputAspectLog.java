@@ -1,4 +1,4 @@
-package it.arteprogrammazione.springboot.calculator.aspects;
+package it.arteprogrammazione.springboot.calculator.backend.aspects;
 
 import org.aspectj.lang.JoinPoint;
 import org.aspectj.lang.annotation.*;
@@ -12,7 +12,7 @@ public class InputOutputAspectLog {
 
     private final Logger logger = LoggerFactory.getLogger(InputOutputAspectLog.class);
 
-    @Pointcut("execution(* it.arteprogrammazione.springboot.calculator.service.ICalculatorService.*(..))")
+    @Pointcut("execution(* it.arteprogrammazione.springboot.calculator.backend.service.ICalculatorService.*(..))")
     public void calculatorServiceMethods() {
     }
 

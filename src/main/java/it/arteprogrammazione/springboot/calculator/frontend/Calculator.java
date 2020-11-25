@@ -1,7 +1,7 @@
-package it.arteprogrammazione.springboot.calculator;
+package it.arteprogrammazione.springboot.calculator.frontend;
 
-import it.arteprogrammazione.springboot.calculator.enumeration.OperationEnum;
-import it.arteprogrammazione.springboot.calculator.service.ICalculatorService;
+import it.arteprogrammazione.springboot.calculator.common.enumeration.OperationEnum;
+import it.arteprogrammazione.springboot.calculator.backend.service.ICalculatorService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 

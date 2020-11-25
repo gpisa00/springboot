@@ -1,6 +1,6 @@
 package it.arteprogrammazione.springboot;
 
-import it.arteprogrammazione.springboot.calculator.Calculator;
+import it.arteprogrammazione.springboot.calculator.frontend.Calculator;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;

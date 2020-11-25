@@ -9,7 +9,7 @@ import java.util.Scanner;
 public class CalculatorConfig {
 
     @Bean
-    public Scanner getScanner(){
+    public Scanner scanner(){
         return new Scanner(System.in);
     }
 

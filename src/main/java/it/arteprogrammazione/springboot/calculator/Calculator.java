@@ -3,11 +3,11 @@ package it.arteprogrammazione.springboot.calculator;
 import it.arteprogrammazione.springboot.calculator.enumeration.OperationEnum;
 import it.arteprogrammazione.springboot.calculator.service.ICalculatorService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Controller;
 
 import java.util.Scanner;
 
-@Component
+@Controller
 public class Calculator {
 
     private final ICalculatorService calculatorService;
@@ -47,7 +47,7 @@ public class Calculator {
                     case DIV:
                         try {
                             System.out.println("Result = " + calculatorService.div(insertInput(), insertInput()));
-                        }catch (ArithmeticException e){
+                        } catch (ArithmeticException e) {
                             System.out.println("Divisione per 0  non consentita");
                         }
                         break;

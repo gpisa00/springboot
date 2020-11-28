@@ -1,4 +1,4 @@
-package it.arteprogrammazione.springboot;
+package it.arteprogrammazione.springboot.calculator;
 
 import it.arteprogrammazione.springboot.calculator.frontend.Calculator;
 import org.springframework.beans.factory.annotation.Autowired;
